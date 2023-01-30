@@ -1,0 +1,82 @@
+#section1{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#section1 p{
+  color: rgb(78, 78, 78);
+}
+#section1 div:nth-child(1){
+  margin-left: 100px;
+}
+#section1 h5 {
+  width: 90px;
+  cursor: pointer;
+}
+#section1 div:nth-child(2){
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+ 
+}
+.s1arrow{
+  cursor: pointer;
+}
+.divprofile{
+  padding-right: 50px;
+  width: fit-content;
+
+}
+#notification{
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  position: relative;
+}
+#notification {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 200,
+  'opsz' 48;
+}
+.notifdiv{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #1c1d1d;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -15px;
+  top: -10px;
+}
+.s1div1{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid black;
+  margin-right: 15px;
+  margin-left: 40px;
+}
+@media (max-width:722px) {
+  #section1{
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 100px;
+  }
+  #section1 div:nth-child(1){
+    margin-left:50px;
+  }
+}
